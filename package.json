@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "start": "node server.js && node ./api/api.js"
+  },
   "dependencies": {
     "axios": "^0.17.1",
     "history": "^4.7.2",
@@ -22,6 +25,7 @@
     "babel-preset-stage-2": "^6.24.1",
     "eslint": "^4.17.0",
     "eslint-plugin-react": "^7.6.1",
+    "express": "^4.16.2",
     "webpack": "^3.10.0"
   }
 }

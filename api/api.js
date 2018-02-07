@@ -7,5 +7,4 @@ var app = http.createServer((request, response) => {
     response.end();
 });
 
-app.listen(3000);
-console.log('Server listening on port 3000');
+app.listen(3000, () => console.log('Running on 0.0.0.0:3000'));
