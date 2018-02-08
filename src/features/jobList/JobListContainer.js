@@ -18,7 +18,7 @@ const mapDispatchToProps = {
 
 export default compose(
   setPropTypes({
-    jobs: PropTypes.array.isRequired
+    jobs: PropTypes.array
   }),
   connect(mapStateToProps, mapDispatchToProps),
   lifecycle({

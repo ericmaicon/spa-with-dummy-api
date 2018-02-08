@@ -15,13 +15,23 @@ export function jobReducer (state = { jobs: [] }, action) {
 }
 
 export function fetchJobs() {
-  return (dispatch) => {
+  return dispatch => {
+    dispatch(fetchJobsRequest());
 
-    axios.get('http://localhost:3000').then(({ data }) => {
-      dispatch({
-        type: FETCH_JOBS_DONE,
-        response: data
-      });
-    });
+    return axios.get('http://localhost:3000')
+      .then(({ data }) => dispatch(fetchJobsDone(data)));
+  };
+}
+
+function fetchJobsRequest() {
+  return {
+    type: FETCH_JOBS
+  };
+}
+
+function fetchJobsDone(data) {
+  return {
+    type: FETCH_JOBS_DONE,
+    response: data
   };
 }
