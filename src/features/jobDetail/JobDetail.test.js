@@ -4,14 +4,19 @@ import thunk from 'redux-thunk';
 import { Provider } from 'react-redux';
 import configureMockStore from 'redux-mock-store';
 
-import JobListContainer from './JobListContainer';
+import JobDetailContainer from './JobDetailContainer';
 
 const mockStore = configureMockStore([
   thunk
 ]);
 let store = mockStore({
   job: {
-    jobs: []
+    job: {
+      company_logo: '',
+      title: '',
+      company: '',
+      description: ''
+    }
   }
 });
 
@@ -19,7 +24,7 @@ describe('JobList', () => {
   it('renders properly', () => {
     const div = document.createElement('div');
     ReactDOM.render(<Provider store={store}>
-      <JobListContainer />
+      <JobDetailContainer />
     </Provider>, div);
   });
 });

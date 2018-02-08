@@ -2,7 +2,7 @@ import React from 'react';
 import Card, { CardHeader, CardActions, CardContent, CardMedia } from 'material-ui/Card';
 import { Button, Typography, Avatar, IconButton } from 'material-ui';
 import BorderColorIcon from 'material-ui-icons/BorderColor';
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
 
 const JobListForm = ({ jobs }) => (
   <div>
@@ -21,17 +21,14 @@ const JobListForm = ({ jobs }) => (
           }
           title={job.title}
           subheader={job.company}
+          action={
+            <Link to={`/detail/${job.id}`}>
+              <IconButton aria-label="More">
+                <BorderColorIcon />
+              </IconButton>
+            </Link>
+          }
         />
-        <CardContent>
-          <Typography component="p">{job.description}</Typography>
-        </CardContent>
-        <CardActions disableActionSpacing>
-          <Link to={`/detail/${job.id}`}>
-            <IconButton aria-label="More">
-              <BorderColorIcon />
-            </IconButton>
-          </Link>
-        </CardActions>
       </Card>
     ))}
   </div>
