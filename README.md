@@ -1,6 +1,6 @@
-# Simple React SPA application
+# Simple React SPA
 
-This is a simple SPA with React and a dummy api. It uses:
+This is a simple SPA with React and a dummy API. It uses:
 
 * React
 * Redux
@@ -18,5 +18,5 @@ After that, you may access using the following url: [http://localhost:3333](http
 ## Test:
 
 ~~~sh
-yarn test
+npm test
 ~~~

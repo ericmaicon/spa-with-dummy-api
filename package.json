@@ -5,8 +5,10 @@
   "license": "MIT",
   "scripts": {
     "test": "jest --verbose",
+    "posttest": "./node_modules/.bin/eslint .",
     "webpack": "./node_modules/.bin/webpack -w",
-    "start": "npm install && node api/api.js & node server.js"
+    "prestart": "npm install",
+    "start": "node api/api.js & node server.js"
   },
   "dependencies": {
     "axios": "^0.17.1",
