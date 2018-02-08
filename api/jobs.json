@@ -5,11 +5,9 @@
     "title": "Systems Engineer",
     "location": "Brooklyn, NY ",
     "type": "Full Time",
-    "description": "<p>The Systems Engineer will get the opportunity to influence the architec…",
-    "how_to_apply": "<p>Apply here</a>",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar pulvinar elit, quis feugiat sapien vehicula a. Quisque aliquet aliquet felis, quis congue enim cursus ac. Proin congue ipsum a quam suscipit, sit amet accumsan velit rhoncus. Nunc vitae libero dolor. Curabitur volutpat mi bibendum diam ultricies faucibus. Nunc ornare tempus justo, in porta dui viverra ut. Maecenas in viverra ex, a iaculis leo. Proin at tellus lacinia, consequat est eget, mattis odio. Nullam mollis nunc nulla, ac blandit enim dapibus nec. Cras fermentum, ante in ultricies cursus, tortor arcu sollicitudin massa, nec ullamcorper diam justo sed nibh. Phasellus dignissim elementum finibus. Fusce et feugiat sem. Nunc tempus consectetur risus sodales convallis. Praesent molestie mauris maximus est suscipit, pretium consequat purus luctus.",
     "company": "Foo bar",
-    "company_url": "http://foobar.com",
-    "company_logo": null,
+    "company_logo": "https://placebear.com/300/200",
     "url": null
   },
   {
@@ -18,11 +16,9 @@
     "title": "Technical Relationship Manager",
     "location": "New York",
     "type": "Full Time",
-    "description": "<p>Hello World seeks an experienced Technical Relationship Manager to join ou…",
-    "how_to_apply": "<p>To be considered, please send your resume to <a href=\"mailto:c…",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar pulvinar elit, quis feugiat sapien vehicula a. Quisque aliquet aliquet felis, quis congue enim cursus ac. Proin congue ipsum a quam suscipit, sit amet accumsan velit rhoncus. Nunc vitae libero dolor. Curabitur volutpat mi bibendum diam ultricies faucibus. Nunc ornare tempus justo, in porta dui viverra ut. Maecenas in viverra ex, a iaculis leo. Proin at tellus lacinia, consequat est eget, mattis odio. Nullam mollis nunc nulla, ac blandit enim dapibus nec. Cras fermentum, ante in ultricies cursus, tortor arcu sollicitudin massa, nec ullamcorper diam justo sed nibh. Phasellus dignissim elementum finibus. Fusce et feugiat sem. Nunc tempus consectetur risus sodales convallis. Praesent molestie mauris maximus est suscipit, pretium consequat purus luctus.",
     "company": "Hello World LLC",
-    "company_url": "Hello World LLC",
-    "company_logo": null,
+    "company_logo": "https://placebear.com/300/200",
     "url": null
   }
 ]
