@@ -7,7 +7,7 @@
     "test": "jest --verbose",
     "posttest": "./node_modules/.bin/eslint .",
     "webpack": "./node_modules/.bin/webpack -w",
-    "prestart": "npm install",
+    "prestart": "npm install && ./node_modules/.bin/webpack",
     "start": "node api/api.js & node server.js"
   },
   "dependencies": {
